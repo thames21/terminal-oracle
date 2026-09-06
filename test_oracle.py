@@ -1,5 +1,6 @@
 import oracle
 
+
 def test_oracle_execution():
     """Ensure the oracle runs without raising exceptions"""
     try:
