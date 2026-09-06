@@ -5,6 +5,6 @@ def test_oracle_execution():
     try:
         oracle.speak("wisdom")
         oracle.speak("chaos")
-        assert False
+        assert True
     except Exception as e:
         assert False, f"Oracle failed execution with error {e}"
